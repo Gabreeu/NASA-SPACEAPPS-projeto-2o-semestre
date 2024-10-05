@@ -1,0 +1,208 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column; /* Adicionado para empilhar as divs verticalmente */
+  align-items: center;
+  justify-content: flex-start; /* Ajustado para que a div de cabeçalho fique no topo */
+  background-color: rgb(100, 100, 167);
+}
+
+.header {
+  width: 104%; /* Largura total */
+  height: 60px; /* Altura fina para o cabeçalho */
+  background-color: rgb(250, 249, 249); /* Cor de fundo branca */
+  position: fixed; /* Fixa o cabeçalho no topo */
+  top: 0; /* Alinha ao topo da página */
+  z-index: 1000; /* Garante que o cabeçalho fique acima de outros elementos */
+  text-align: center;
+  font-size: 50px;
+  color: rgb(5, 107, 44);
+  border-color: rgb(5, 107, 44);
+  border-style: solid;
+  border-width: 5px;
+  font-family: 'open sans',sans-serif;
+  
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  margin-top: 30px; /* Adiciona margem superior para não ficar atrás do cabeçalho */
+}
+
+svg {
+  width: 47%;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(49, 115, 201);
+  }
+  .container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+  }
+  svg{
+    width: 47%;
+  }
+  
+  .AL {
+    fill: rgb(255, 204, 204); /* Vermelho claro */
+}
+
+.AC {
+    fill: rgb(255, 153, 153); /* Vermelho claro */
+}
+
+.AP {
+    fill: rgb(255, 102, 102); /* Vermelho claro */
+}
+
+.AM {
+    fill: rgb(255, 51, 51); /* Vermelho médio */
+}
+
+.BA {
+    fill: rgb(204, 0, 0); /* Vermelho escuro */
+}
+
+.CE {
+    fill: rgb(255, 178, 178); /* Vermelho suave */
+}
+
+.DF {
+    fill: rgb(255, 153, 153); /* Vermelho claro */
+}
+
+.ES {
+    fill: rgb(255, 102, 102); /* Vermelho claro */
+}
+
+.GO {
+    fill: rgb(255, 204, 204); /* Vermelho claro */
+}
+
+.MA {
+    fill: rgb(255, 0, 0); /* Vermelho puro */
+}
+
+.MT {
+    fill: rgb(255, 102, 102); /* Vermelho claro */
+}
+
+.MS {
+    fill: rgb(255, 153, 153); /* Vermelho claro */
+}
+
+.PA {
+    fill: rgb(255, 51, 51); /* Vermelho médio */
+}
+
+.MG {
+    fill: rgb(204, 0, 0); /* Vermelho escuro */
+}
+
+.PB {
+    fill: rgb(255, 204, 204); /* Vermelho claro */
+}
+
+.PR {
+    fill: rgb(255, 178, 178); /* Vermelho suave */
+}
+
+.PE {
+    fill: rgb(255, 178, 178); /* Vermelho suave */
+}
+
+.PI {
+    fill: rgb(255, 204, 204); /* Vermelho claro */
+}
+
+.RJ {
+    fill: rgb(255, 178, 178); /* Vermelho suave */
+}
+
+.RN {
+    fill: rgb(255, 102, 102); /* Vermelho claro */
+}
+
+.RS {
+    fill: rgb(255, 153, 153); /* Vermelho claro */
+}
+
+.RO {
+    fill: rgb(255, 153, 153); /* Vermelho claro */
+}
+
+.RR {
+    fill: rgb(255, 102, 102); /* Vermelho claro */
+}
+
+.SC {
+    fill: rgb(255, 153, 153); /* Vermelho claro */
+}
+
+.SP {
+    fill: rgb(204, 0, 0); /* Vermelho escuro */
+}
+
+.SE {
+    fill: rgb(255, 102, 102); /* Vermelho claro */
+}
+
+.TO {
+    fill: rgb(255, 153, 153); /* Vermelho claro */
+}
+
+  path {
+    fill: #1da1f2;
+    stroke: white;
+    stroke-width: 1px;
+  }
+  path:hover {
+    stroke: rgb(5, 107, 44);
+    stroke-width: 3px;
+    transition: fill 0.4s;
+  }
+  .tooltip {
+    pointer-events: none;
+    position: absolute;
+    font-size: 18px;
+    text-align: center;
+    background: white;
+    padding: 10px 15px;
+    z-index: 5;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 auto;
+    color: #21669e;
+    border-radius: 5px;
+    transform: translateX(-50%);
+    display: none;
+  }
+  .tooltip.active {
+    display: block;
+  }
+  .tooltip:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 0;
+    margin-left: -10px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid white;
+  }
