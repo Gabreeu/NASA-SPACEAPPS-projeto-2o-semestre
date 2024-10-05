@@ -208,10 +208,11 @@ body {
   }
 
   .stats-list{
+    font-family: 'open sans',sans-serif;
     border-radius: 30px;
     border: solid;
     border-color: rgb(5, 107, 44);
-    height: 300px;
+    height: 250px;
     list-style-type: decimal;
     padding-top: 10px;
  }
@@ -221,11 +222,10 @@ body {
  .esquerda {
     display: flex;
     flex-direction: column; /* Adicione isso para empilhar título e lista verticalmente */
-    margin: 20px;
     background-color: #fff;
     border-radius: 20px;
-    padding: 10px;
-    height: 300px;
+    padding: 20px;
+    height: 370px;
     width: 280px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
