@@ -181,7 +181,7 @@ body {
     font-size: 18px;
     text-align: center;
     background: white;
-    padding: 10px 15px;
+    padding: 5px 15px;
     z-index: 5;
     height: 30px;
     line-height: 30px;
@@ -206,3 +206,44 @@ body {
     border-right: 10px solid transparent;
     border-top: 10px solid white;
   }
+
+  .stats-list{
+    border-radius: 30px;
+    border: solid;
+    border-color: rgb(5, 107, 44);
+    height: 300px;
+    list-style-type: decimal;
+    padding-top: 10px;
+ }
+ .stats-list li {
+    margin-bottom: 7px; /* Ajuste o valor para o espaço desejado */
+}
+ .esquerda {
+    display: flex;
+    flex-direction: column; /* Adicione isso para empilhar título e lista verticalmente */
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+    height: 300px;
+    width: 280px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.esquerda h3 {
+    margin-bottom: 10px; /* Espaço entre o título e a lista */
+    font-size: 24px; /* Ajuste o tamanho do texto se necessário */
+    color: rgb(5, 107, 44); /* Cor do texto, se desejar */
+    text-align: center; /* Centraliza o texto do título */
+}
+.arrow {
+    font-weight: bold; /* Ajuste o peso da fonte se necessário */
+}
+
+.less-than {
+    color: red; /* Muda a cor do símbolo < para vermelho */
+}
+
+.greater-than {
+    color: green; /* Muda a cor do símbolo > para verde */
+}
+

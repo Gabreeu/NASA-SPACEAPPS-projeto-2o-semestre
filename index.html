@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
 	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,9 +7,25 @@
 	<title>Mapa do Brasil</title>
 	<link rel="stylesheet" href="style.css">
 </head>
+	
+	
 	<div class="header">-FeedTheWorld-</div> <!-- Nova div para cabeçalho -->
 	<div class="container">
+		<div class="esquerda">
+			<h3>Estados com menos doações</h3> 
+				<ul class="stats-list"> 
+					<li><strong>Amapá</strong> <span class="arrow less-than">&lt;</span> 5% doações</li> 
+    				<li><strong>Piauí</strong> <span class="arrow less-than">&lt;</span> 4% doações</li>
+   					<li><strong>Paraíba</strong> <span class="arrow less-than">&lt;</span> 6% doações</li>
+    				<li><strong>Acre</strong> <span class="arrow greater-than">&gt;</span> 7% doações</li>
+    				<li><strong>Rondônia</strong> <span class="arrow less-than">&lt;</span> 8% doações</li>
+    				<li><strong>Tocantins</strong> <span class="arrow greater-than">&gt;</span> 9% doações</li>
+    				<li><strong>Roraima</strong> <span class="arrow less-than">&lt;</span> 3% doações</li>
+			</ul>
+		</div>
 	<div class="container">
+		
+
 
 		<svg xmlns:mapsvg="http://mapsvg.com" xmlns:dc="http://purl.org/dc/elements/1.1/"
 			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg"
@@ -103,6 +118,8 @@
 		<div class="tooltip"></div>
 
 	</div>
+
+	
 	
 
 	<script>
